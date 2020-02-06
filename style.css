@@ -1,0 +1,24 @@
+header {
+  justify-content: center;
+  text-align: center;
+}
+
+.form-card-square.mdl-card {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.form-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('./images/camera.jpg') center / cover;
+}
+
+.mdl-layout__header-row {
+  background-color: #004CA6
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+  background-color: #004CA6
+}
