@@ -20,7 +20,7 @@ function onReady () {
 }
     function renderTheUI() {
       const toDoList = document.getElementById('toDoList');
-    }
+    
       toDoList.textContent = '';
 
       toDos.forEach(function(toDo) {
