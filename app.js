@@ -39,8 +39,8 @@ function onReady () {
 
         delete_Btn.addEventListener('click', event => {
           deleteToDo();
-          renderTheUI();
           });
+          renderTheUI();
 
         });
 
@@ -50,14 +50,12 @@ function onReady () {
         newLi.appendChild(checkbox);
         newLi.appendChild(delete_Btn);
       };
-    }
 
     addToDoForm.addEventListener('submit', event => {
       event.preventDefault();
-      createNewToDo();
     });
-
-    renderTheUI(); 
+    createNewToDo();
+    renderTheUI();
   }
 
 window.onload = function() {
